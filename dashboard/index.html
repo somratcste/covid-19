@@ -218,5 +218,17 @@
 <script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
 <!-- AdminLTE App -->
 <script src="dist/js/adminlte.js"></script>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+
+<script type="text/javascript">
+ $(document).ready(function () { 
+
+  d3.json("data/covid19-2020-06-04.json").then(function(data){ console.log(data)});
+
+  // $.getJSON("data/covid19-2020-06-04.json", function(json) {
+  //   console.log(json);
+  // });
+ });
+</script>
 </body>
 </html>

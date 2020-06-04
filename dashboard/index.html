@@ -222,12 +222,9 @@
 
 <script type="text/javascript">
  $(document).ready(function () { 
-
-  d3.json("data/covid19-2020-06-04.json").then(function(data){ console.log(data)});
-
-  // $.getJSON("data/covid19-2020-06-04.json", function(json) {
-  //   console.log(json);
-  // });
+  $.getJSON("data/covid19-2020-06-04.json", function(json) {
+    console.log(json);
+  });
  });
 </script>
 </body>

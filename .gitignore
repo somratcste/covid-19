@@ -129,6 +129,7 @@ dmypy.json
 .pyre/
 
 # Plugins
-/dashboard/plugins/*/*.md
-/dashboard/plugins/*/*.html
-/dashboard/plugins/*/package.json
+dashboard/plugins/**
+dashboard/plugins/*/*.md
+dashboard/plugins/*/*.html
+dashboard/plugins/*/package.json
